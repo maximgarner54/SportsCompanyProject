@@ -16,8 +16,14 @@ Atlicon, a leading manufacturer of sporting equipment has recently acquired Spor
 
 
 ## 📁 Repository Structure
+#Data
+* `/Data` — All the parent and child datasets provided for this project.
 
-* `/notebooks/01_data_ingestion.ipynb` — Raw data ingestion (Bronze).
+#Setup
+* `/1_setup/setup_catalog.ipynb` — Defining catalog and table schemas.
+* `/1_setup/utilities.ipynb` — Schema reference variables.
+* `/1_setup/dim_date_table_creation.ipynb` — Creating a date table to later adjust the timestamps in child companies data.
+
 #Dimensional Table Cleaning
 * `/2_dimension_data_processing/1_Customer_data_processing.ipynb` — Customer data cleaning & validation (Bronze -> Silver -> Gold).
 * `/2_dimension_data_processing/2_Products_data_processing.ipynb` — Product data cleaning & validation (Bronze -> Silver -> Gold).
@@ -27,5 +33,8 @@ Atlicon, a leading manufacturer of sporting equipment has recently acquired Spor
 * `/notebooks/03_business_analytics.ipynb` — Final aggregations and KPIs (Gold).
 * `/3_fact_table_processing/1_full_load_fact.ipynb` — Historical order cleaning & validation (Bronze -> Silver -> Gold).
 * `/3_fact_table_processing/2_incremental_load_fact.ipynb` — Incoming order cleaning & validation (Bronze -> Silver -> Gold).
-* 
-* `/DashboardQuery/1_full_load_fact.ipynb` — Historical order cleaning & validation (Bronze -> Silver -> Gold).
+
+#Dashboarding
+* `/Dashboarding/SQL Queries/ParentIncrementalJoin.dbquery.ipynb` — Combining incremental and full load for dashboarding purposes.
+* `/Dashboarding/SQL Queries/DashboardQuery.dbquery.ipynb` — Creating a denormalized view to utilize in dashboarding environments.
+* `/Dashboarding/SportsProjectDashboard.pdf` — A sample dashboard.
