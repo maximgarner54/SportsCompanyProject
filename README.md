@@ -37,3 +37,6 @@ Atlicon, a leading manufacturer of sporting equipment has recently acquired Spor
 * `/Dashboarding/SQL Queries/ParentIncrementalJoin.dbquery.ipynb` — Combining incremental and full load for dashboarding purposes.
 * `/Dashboarding/SQL Queries/DashboardQuery.dbquery.ipynb` — Creating a denormalized view to utilize in dashboarding environments.
 * `/Dashboarding/SportsProjectDashboard.pdf` — A sample dashboard.
+
+#Orchestration
+* `/SuccessfulRun.png` — A screenshot of a successful run in which a pipeline updates the dataset with daily additions.
