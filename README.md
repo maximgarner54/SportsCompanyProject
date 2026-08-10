@@ -29,8 +29,7 @@ Atlicon, a leading manufacturer of sporting equipment has recently acquired Spor
 * `/2_dimension_data_processing/2_Products_data_processing.ipynb` — Product data cleaning & validation (Bronze -> Silver -> Gold).
 * `/2_dimension_data_processing/3_pricing_data_processing.ipynb` — Time varied pricing data cleaning & validation (Bronze -> Silver -> Gold).
 
-#Orders Table Cleaning
-* `/notebooks/03_business_analytics.ipynb` — Final aggregations and KPIs (Gold).
+#Fact Table Cleaning
 * `/3_fact_table_processing/1_full_load_fact.ipynb` — Historical order cleaning & validation (Bronze -> Silver -> Gold).
 * `/3_fact_table_processing/2_incremental_load_fact.ipynb` — Incoming order cleaning & validation (Bronze -> Silver -> Gold).
 
