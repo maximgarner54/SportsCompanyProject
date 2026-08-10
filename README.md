@@ -1,6 +1,5 @@
 # SportsCompanyProject
 A comprehensive work through of "codebasics" interactive project which can be found under the following link: https://www.youtube.com/watch?v=U6ZUKWdfSLY
-markdown# Project Title: [e.g., Real-Time Retail Lakehouse Ecosystem]
 
 ## 📌 Project Overview
 Atlicon, a leading manufacturer of sporting equipment has recently acquired Sportsbar, a fast growing startup in the Energy bar industry. This project focuses on cleaning and joining Sportsbar's existing data under "Full Load" to match the Schema of the parent company, Atlicon. In addition to this, we also orchestrate a pipeline to append incoming data modeled under "Incremental Load" to mirror the dynamics of a real-world acquisition in which incoming daily data also needs to included in the parent dataset.
